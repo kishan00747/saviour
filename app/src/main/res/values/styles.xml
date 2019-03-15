@@ -8,4 +8,30 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MyHintText" parent="Theme.AppCompat.Light">
+        <item name="android:textColorHint">@color/colorPrimaryLight</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorIcons</item>
+    </style>
+
+    <!--Input field style-->
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">18sp</item>
+
+        <item name="colorControlNormal">@color/colorPrimaryLight</item>
+        <item name="colorControlActivated">@color/colorIcons</item>
+    </style>
+
+    <style name="MyButton" parent="Widget.AppCompat.Button">
+        <item name="android:paddingEnd">30dp</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/rounded_rectangle</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="colorControlHighlight">@color/colorPrimaryLight</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+    </style>
+
 </resources>
