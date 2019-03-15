@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Saviour</string>
+    <string name="str_login">Login</string>
+    <string name="str_mobile">Mobile Number</string>
+    <string name="str_pass">Password</string>
+    <string name="signUp_underline"><u>Sign Up</u></string>
+    <string name="str_guest">Continue as Guest</string>
+    <string name="str_signUp">Sign Up</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_name">Name</string>
+    <string name="str_email">Email</string>
+    <string name="str_male">Male</string>
+    <string name="str_female">Female</string>
+    <string name="str_allergies">Allergies</string>
+    <string name="str_illnesses">Chronic Illnesses</string>
+    <string name="str_weight">Weight (in Kg)</string>
+    <string name="str_height">Height( in cms)</string>
+    <string name="str_general">General Info :</string>
+    <string name="str_next">Next</string>
+    <string name="str_personal">Personal Info :</string>
+    <string name="str_finish">Finish</string>
 </resources>
