@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kishan00747.saviour.HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/container_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="fill_horizontal"
+
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/title_background"
+            android:paddingBottom="60dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sav1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:backgroundTint="@color/WARNING"
+            android:padding="10dp"
+            android:text="ACCIDENTAL EMERGENCY"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:backgroundTint="@color/Amber"
+            android:padding="10dp"
+            android:text="CHRONIC CARE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:padding="10dp"
+            android:text="CONSULT WITH THE EXPERT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textSize="18sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
