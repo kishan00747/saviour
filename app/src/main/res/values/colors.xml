@@ -8,4 +8,7 @@
     <color name="colorSecondaryText">#757575</color>
     <color name="colorIcons">#FFFFFF</color>
     <color name="colorDivider">#BDBDBD</color>
+    <color name="Amber">#fff107</color>
+    <color name="WARNING">#dc3545</color>
+    <color name="white">#ffffff</color>
 </resources>
